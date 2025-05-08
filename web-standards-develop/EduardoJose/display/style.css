@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+header{
+    width: 100% ;
+    height: 116px;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    text-decoration: none;
+    gap: 52px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #131313;
+    font-family: 'Inter' serif;
+    font-weight: 700;
+}
+
+header img{
+    width: 122px;
+    height: 49px;
+}
+
+
+
+
+
